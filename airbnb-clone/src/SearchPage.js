@@ -1,11 +1,12 @@
 import { Button } from '@material-ui/core';
 import React from 'react';
-import './SearchPage.css'
+import './SearchPage.css';
 import SearchResult from './SearchResult';
 
 const SearchPage = () => {
-  return <div className='searchPage'>
-<div className='searchPage__info'>
+    return (
+        <div className="searchPage">
+            <div className="searchPage__info">
                 <p>62 stays · 26 august to 30 august · 2 guest</p>
                 <h1>Stays nearby</h1>
                 <Button variant="outlined">Cancellation Flexibility</Button>
@@ -79,7 +80,8 @@ const SearchPage = () => {
                 price="£90 / night"
                 total="£650 total"
             />
-  </div>;
+        </div>
+    );
 };
 
 export default SearchPage;

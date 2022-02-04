@@ -25,8 +25,8 @@
     height: 30px;
     top: 420px;
     border: none;
-  }
-  
+}
+
 .search > input:focus {
     outline-width: 0;
 }
@@ -39,7 +39,7 @@
     background-color: #ff7779;
     color: white;
     width: 579px;
-  }
+}
 
 .search > button:hover {
     background-color: white;
