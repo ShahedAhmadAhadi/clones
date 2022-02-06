@@ -10,7 +10,7 @@ function App() {
     <div className="app">
       <Router>
         <Header />
-        
+
         <Switch>
           <Route path="/search">
             <SearchPage />
@@ -19,7 +19,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
-        
+
         <Footer />
       </ Router>
     </div>

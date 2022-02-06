@@ -2,7 +2,8 @@ import React from 'react';
 
 const dumComp = () => {
   return <div>
-      my Document in mai
+      my Document in main
+      My Document with bugfix
   </div>;
 };
 
