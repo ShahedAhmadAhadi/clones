@@ -1,4 +1,5 @@
 import './App.css';
+import Post from './Post';
 
 function App() {
   return (
@@ -11,6 +12,12 @@ function App() {
                 alt="insta logo"
               /> }
             </div>
+
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
     </div>
   );
 }
