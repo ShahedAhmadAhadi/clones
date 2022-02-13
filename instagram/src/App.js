@@ -8,7 +8,7 @@ import {makeStyles} from '@material-ui/core/styles'
 import { Button, Input } from '@material-ui/core'
 import { auth } from './firebase'
 import ImageUpload from './ImageUpload'
-import InstagramEmbed from 'react-instagram-embed'
+// import InstagramEmbed from 'react-instagram-embed'
 
 function getModalStyle(){
     const top = 50 
@@ -92,7 +92,7 @@ const App = () => {
     }
 
     return (
-        <div className='app'>           
+        <div className='app'>          
             <Modal open={open} onClose={() => setOpen(false)} >
                 <div style={modalStyle} className={classes.paper}>
                     <form  className="app__signup">

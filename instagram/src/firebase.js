@@ -1,9 +1,9 @@
 import firebase from 'firebase'
-
-const firebaseConfig1 ;
-
-const firebaseApp = firebase.initializeApp(process.env.firebaseConfig)
-console.log(process.env.firebaseConfig);
+import { firebaseConfig } from './.firebase.js'
+ 
+const firebaseApp = firebase.initializeApp(firebaseConfig)
+// const firebaseApp = firebase.initializeApp(process.env.REACT_APP_FIREBASE)
+console.log(firebaseApp);
 
 const db = firebase.firestore()
 const auth = firebase.auth()
