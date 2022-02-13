@@ -20,7 +20,6 @@ function getModalStyle(){
         transform: `translate(-${top}%, -${left}%)`
     }
 }
-
 const useStyles = makeStyles(theme => ({
     paper: {
         position: 'absolute',
@@ -33,7 +32,9 @@ const useStyles = makeStyles(theme => ({
     }
 }))
 
+
 const App = () => {
+
     const classes = useStyles()
     const [modalStyle] = useState(getModalStyle)
 
@@ -166,9 +167,10 @@ const App = () => {
 
              {user?.displayName ? (
                 <ImageUpload username = {user.displayName} />
-            ) : (
-                    <h3>Loggin To Upload</h3>
+            ) : (                    
+                        <h3 className='login'>Loggin To Upload Posts </h3>            
             )}
+            <p className='footer'>Build by Zubair Omer</p>
 
         </div>
     )
