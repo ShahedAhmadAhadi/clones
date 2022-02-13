@@ -1,11 +1,14 @@
-import './App.css';
+import React from 'react'
+import Header from './Header'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      HULU
-    </div>
-  );
-}
+    <div>
+      <Header />
 
-export default App;
+      {/* Nav */}
+
+      {/* Result */}
+    </div>
+  )
+}
