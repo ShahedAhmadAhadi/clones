@@ -149,7 +149,7 @@ const App = () => {
                 }
                 </div>
                 <div className="app__postRight">
-                     <InstagramEmbed
+                     {/* <InstagramEmbed
                         url="https://www.instagram.com/p/B_uf9dmAGPw/"
                         maxWidth={320}
                         hideCaption={false}
@@ -160,7 +160,7 @@ const App = () => {
                         onSuccess={() => { }}
                         onAfterRender={() => { }}
                         onFailure={() => { }}
-            />
+            /> */}
                </div>
             </div>
             
