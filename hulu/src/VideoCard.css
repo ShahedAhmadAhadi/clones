@@ -1,4 +1,4 @@
-.vedioCard {
+.videoCard {
   color: white;
   width: 400px;
   height: 400px;
@@ -6,16 +6,16 @@
   transition: transform 100ms;
 }
 
-.vedioCard:hover {
+.videoCard:hover {
   transform: scale(1.09);
 }
 
-.vedioCard > img {
+.videoCard > img {
   object-fit: contain;
   width: 400px;
   height: 300px;
 }
 
-.vedioCard > p {
+.videoCard > p {
   padding-top: 10px;
 }

@@ -1,19 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Result.css'
 import VideoCard from './VideoCard'
+import axios from './axios'
+import requests from './requests'
 
 export default function Result() {
+    const [movies, setMovies] = useState([])
+
+    useEffect(() => {
+        async function fetchData() {
+            const request = await axios.get(requests.fetchActionMovies)
+            console.log(request);
+        }
+        fetchData();
+    }, [])
+    //design don
+
     return (
         <div className='result'>
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
+            {movies.map(movie => (
+                <VideoCard />
+            ))}
         </div>
     )
 }
