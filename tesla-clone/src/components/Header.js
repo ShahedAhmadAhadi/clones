@@ -1,22 +1,20 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const Header = () => {
     return (
         <div>
-            <Container >
-                <a>
+            <Container>
+                <a href="/">
                     <img src="/images/logo.svg" alt="" />
                 </a>
-                <Menu>
-
-                </Menu>
+                <Menu></Menu>
             </Container>
         </div>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;
 
 const Container = styled.div`
     min-height: 60px;
@@ -24,9 +22,6 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     padding: 0 20px;
-    
-`
+`;
 
-const Menu = styled.div`
-
-`
+const Menu = styled.div``;
