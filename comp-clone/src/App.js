@@ -2,8 +2,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <main>
+      <div className='container'>
+        <h3>questions and answers about login</h3>
+      </div>
+    </main>
   );
 }
 
